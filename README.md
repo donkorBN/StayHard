@@ -1,6 +1,46 @@
-# Welcome to your Expo app 👋
+A mobile app called "StayHard" that gives users aggressive motivation to complete their daily tasks.
+The app should have a bold, sarcastic personality with glitchy, punchy, no-excuses vibes.
+The primary flow includes onboarding, a voice-to-task transcription home screen, recurring 30-minute reminders, and a user profile/settings page for tone adjustment.
+Use dark themes with neon highlights. Think rebellious, intense, and slightly funny—but with purpose.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✳️ Screen 1: Onboarding
+Welcome message with sarcasm: “Welcome to Toxify. You're either doing the work or wasting time.”
+
+CTA: Get Bullied into Success
+
+Bold fonts, high contrast background (black with neon green/red)
+
+✳️ Screen 2: Permissions
+Two cards:
+
+Microphone Access ➝ “We need to hear your lame excuses.”
+
+Notifications ➝ “So we can yell at you every 30 minutes.”
+
+CTA Button: Fine, I Deserve It
+
+✳️ Screen 3: Home (Voice Transcriber)
+Big circular mic button in center
+
+Subtitle: “Say your goal. We dare you.”
+
+Animated waveform and listening indicator
+
+Below: Recent transcription summary like: “You said: ‘Finish your essay.’ Then do it.”
+
+Optional Button: View My Excuses (History)
+
+✳️ Screen 4: Profile / Settings
+Avatar + Username
+
+Toxic Level: Toggle or dropdown (Mild, Medium, Savage)
+
+Notification Interval setting (15, 30, 60 mins)
+
+Tone Selector
+
+Clear Task History button
+
 
 ## Get started
 
@@ -16,35 +56,3 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
